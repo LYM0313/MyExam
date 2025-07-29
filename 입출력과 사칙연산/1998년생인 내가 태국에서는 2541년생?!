@@ -1,0 +1,13 @@
+#define _CRS_SECURE_NO_WARNINGS
+
+#include<stdio.h>
+#include<string.h>
+
+int main() {
+	int year;
+
+	scanf_s("%d", &year);
+	printf("%d", year - 554);
+
+	return 0;
+}
